@@ -9,11 +9,11 @@ let decks = [
             },
             {
                 question:'second question',
-                answer:'first answer'
+                answer:'second answer'
             },
             {
                 question:'third question',
-                answer:'first answer'
+                answer:'third answer'
             }
         ]
     },
