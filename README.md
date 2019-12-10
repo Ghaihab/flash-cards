@@ -1,5 +1,6 @@
 # flash-cards
-Mobile Flash Cards is a quiz game where you can add deck and related their related cards
+Mobile Flash Cards is a quiz game where you can add deck and their related cards which contain questions and answers.
+
 Developed in react native.
 
 
