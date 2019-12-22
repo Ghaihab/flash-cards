@@ -17,16 +17,15 @@ class DeckDetails extends Component {
                     <Body>
                         <H1>{deck.title}</H1>
                         <Text note>Number of Cards: {deck.cards.length}</Text>
-                        <View style={{
-                            flexDirection: 'row',
-                            justifyContent: 'space-between',
-                        }}>
-                            <Button title='Add Card' onPress={() => navigate('AddCard',{ deck })}/>
-                            <Button title='Start Quiz' color='green' onPress={() => this._startQuiz(deck, navigate)}/>
-
-                        </View>
                     </Body>
                 </CardItem>
+                <View style={{
+                    flexDirection: 'column',
+                    justifyContent: 'space-evenly',
+                }}>
+                    <Button title='Add Card' onPress={() => navigate('AddCard',{ deck })}/>
+                    <Button title='Start Quiz' color='green' onPress={() => this._startQuiz(deck, navigate)}/>
+                </View>
             </Card>
 
         );
